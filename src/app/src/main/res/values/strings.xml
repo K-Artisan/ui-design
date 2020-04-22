@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Remote</string>
+    <string name="nav_title_device">设备</string>
+    <string name="nav_title_smart">智能</string>
+    <string name="nav_title_my_center">我的</string>
+</resources>

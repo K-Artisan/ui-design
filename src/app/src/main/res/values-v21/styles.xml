@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Android 5.0系统及其以上才会识别该文件-->
+<resources>
+    <!--parent=AppTheme表示：继承的所有属性-->
+    <style name="StatusBarTheme" parent="AppTheme">
+        <!--程序的主题中将状态栏颜色指定成透明色。
+        指定成透明色的方法很简单，在主题中将android:statusBarColor属性的值指定成@android:color/transparent就可以了。
+        但问题在于，android:statusBarColor这个属性是从API 21，也就是Android 5.0系统开始才有的，之前的系统无法指定这个属性。-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
